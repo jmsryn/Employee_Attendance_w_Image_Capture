@@ -6,7 +6,7 @@
 > - Pamelle Ragmac
 
 ###### **Entity Relationship Diagram**
-![alt text](https://imgur.com/h1fDV0u)
+![alt text](erd.png)
 
 Prefered Screen Resolution:
 ```
