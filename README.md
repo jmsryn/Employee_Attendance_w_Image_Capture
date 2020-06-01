@@ -5,3 +5,9 @@
 > - Danielle Anne De Guzman
 > - Pamelle Ragmac
 
+###### ** Entity Relationship Diagram**
+
+Prefered Screen Resolution:
+```
+1366 x 768
+```
