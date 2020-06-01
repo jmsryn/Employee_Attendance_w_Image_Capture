@@ -22,13 +22,13 @@ http://127.0.0.1:8000/ -> Login
 ## Creds:
 ```
 - Super Admin
- > james@gmail.com
- > james123
+  > james@gmail.com
+  > james123
 - Admin
- > ryan@gmail.com
- > ryan123
+  > ryan@gmail.com
+	> ryan123
 - Employee
- > dane@gmail.com
- > dane123
+  > dane@gmail.com
+  > dane123
 ```
 

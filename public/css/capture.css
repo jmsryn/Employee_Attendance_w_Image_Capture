@@ -1,0 +1,166 @@
+:root {
+    --primary : #243a47;
+    --secondary: #304c5a;
+    --thirtiary: #339886; 
+    --fourth: #21333f;
+    --dirty-white: #eeeeee;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Mono', monospace;
+}
+
+.hide {
+    display: none;
+}
+
+form {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: var(--secondary);
+    justify-content: center;
+    align-items: center;
+}
+
+.selector-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: var(--secondary);
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container {
+    display: flex;
+}
+
+.log-select {
+    display: flex;
+    width: 60%;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.log-select .time-in {
+    width: 100%;
+}
+
+.log-select .time-out {
+    width: 100%;
+}
+
+.log-select .time-in button {
+    font-size: 3rem;
+    padding: 2rem;
+    width: 90%;
+    height: 30vh;
+    margin-right: 1rem;
+    border: none;
+    background: var(--primary);
+    color: white;
+    cursor: pointer;
+}
+
+
+.log-select .time-out button {
+    font-size: 3rem;
+    padding: 2rem;
+    width: 90%;
+    height: 30vh;
+    margin-left: 1rem;
+    border: none;
+    background: var(--primary);
+    color: white;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 30%;
+    border: 1px solid var(--thirtiary);
+}
+
+.input-form {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.input-form input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+.input-number {
+    flex: 6;
+    border: 1px solid var(--thirtiary);
+}
+
+table {
+    /* padding: 5rem; */
+    /* width: 40%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+table td {
+    padding: 1rem;
+}
+
+table td input[type=button] {
+    padding: 2rem;
+    cursor: pointer;
+    border: none;
+    background: var(--secondary);
+    color: white;
+}
+
+table td button {
+    padding: 2rem;
+    cursor: pointer;
+    border: none;
+    background: var(--secondary);
+    color: white;
+}
+
+.notif .profile-nav-top {
+    top: 0%;
+    left: 0;
+    width: 100%;
+    /* border: 1px solid black; */
+    height: 5vh;
+    position: absolute;
+    background: var(--thirtiary);
+    display: flex;
+    padding: 0 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.notif .profile-nav-top .notif-msg p {
+    color: white;
+    font-size: .8rem;
+}
+
+.notif .profile-nav-top .notif-msg span {
+    font-weight: bold;
+}
+
+.notif .profile-nav-top .close span {
+    color: white;
+    cursor: pointer;
+}

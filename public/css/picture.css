@@ -1,0 +1,70 @@
+:root {
+    --primary : #243a47;
+    --secondary: #304c5a;
+    --thirtiary: #339886; 
+    --fourth: #21333f;
+    --dirty-white: #eeeeee;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Mono', monospace;
+}
+
+.hide {
+    display: none;
+}
+
+form {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: var(--secondary);
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    height: 69.3vh;
+    /* border: 1px solid black; */
+    background: var(--dirty-white);
+}
+
+.picture-cell {
+    flex: 1;
+}
+
+.emp-details {
+    flex: 1;
+    /* margin-left: 1rem; */
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+
+.qoute {
+    font-size: .8rem;
+    margin-bottom: 2rem;
+}
+
+button {
+    border: none;
+    padding: .3rem;
+    background: var(--secondary);
+    color: white;
+    border-radius: .2rem;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 2rem;
+}
+
+#my_camera {
+    padding: 0;
+    border: 1px solid black;
+}
